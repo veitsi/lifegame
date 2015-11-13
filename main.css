@@ -1,0 +1,17 @@
+#game-field .row{
+    max-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+#game-field .row div{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: solid black 1px;
+}
+
+#game-field .row .alive{
+    background-color: green;
+}
